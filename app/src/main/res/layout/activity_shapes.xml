@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#05edf5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            >
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/circle"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="5dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/shapes_circle">
+
+                </ImageView>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/diamond"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="5dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/shapes_diamond">
+
+                </ImageView>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/heart"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="5dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/shapes_heart">
+
+                </ImageView>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/hexagon"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="5dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/shapes_hexagon">
+
+                </ImageView>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/oval"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="5dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/shapes_oval">
+
+                </ImageView>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/pentagon"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="5dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/shapes_pentagon">
+
+                </ImageView>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/rectangle"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="5dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/shapes_rectangle">
+
+                </ImageView>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/triangle"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="5dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/shapes_triangle">
+
+                </ImageView>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/square"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="5dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/shapes_square">
+
+                </ImageView>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/star"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="5dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/shapes_star">
+
+                </ImageView>
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
